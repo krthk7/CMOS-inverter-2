@@ -25,5 +25,5 @@ Lets quickly look into the behaviour of the inverter.The input to the the invert
 ![CMOS inverter-2](./images/tran1.png)<br>
 
 Now lets analyise the output signal.Closely observe the propagation delay in the output.
-![image](https://user-images.githubusercontent.com/67727794/221913721-1fcb43e9-e635-42a4-8dce-8b646c89a40e.png)
+![CMOS inverter-2](./images/theoimages/th1.png)<br>
 

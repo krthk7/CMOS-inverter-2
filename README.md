@@ -23,7 +23,10 @@ Lets quickly look into the behaviour of the inverter.The input to the the invert
 ![CMOS inverter-2](./images/tran1sch.png)<br>
 **Output:**
 ![CMOS inverter-2](./images/tran1.png)<br>
-
+## 1.2 Variation in load Capacitence (cload).
+Lets try plotting the output voltage of an inverter for different values of load capcitance.There's certain amount of delay introduced as the capacitence value increases.Certainly this is not desired,closely observed for higher values the output wpnt reach to full VDD.So we will have to always keep in mind the maximum and minimum load capacitence while designing
+![CMOS inverter-2](./images/tanscap.png)<br>
+![CMOS inverter-2](./images/trancapop.png)<br>
 Now lets analyise the output signal.Closely observe the propagation delay in the output.
 ![CMOS inverter-2](./images/theoimages/th1.png)<br>
 

@@ -46,5 +46,5 @@ That was bit of theory to get started with our analysis.I always want a crisp th
 ![CMOS inverter-2](./images/risefall.png)<br>
 **Output**<br />
 ![CMOS inverter-2](./images/risefallop.png)<br>
-![CMOS inverter-2](./images/risefallop.png)<br>
+![CMOS inverter-2](./images/risefallop1.png)<br>
 ***

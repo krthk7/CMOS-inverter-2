@@ -28,5 +28,17 @@ Lets try plotting the output voltage of an inverter for different values of load
 ![CMOS inverter-2](./images/tanscap.png)<br>
 ![CMOS inverter-2](./images/trancapop.png)<br>
 Now lets analyise the output signal.Closely observe the propagation delay in the output.
+***
+## 1.3 Rise-Time and Fall-Time
 ![CMOS inverter-2](./images/theoimages/th1.png)<br>
-
+### Fall-Time
+Fall time is defined as the time taken for the output signal from 90% of final value to 10% of the final value.The difference between these time interval yields the fall time (**tfall**).<br />
+![image](https://user-images.githubusercontent.com/67727794/222906879-193febbf-f2c5-4681-9b7f-4a5838ab063c.png)
+![image](https://user-images.githubusercontent.com/67727794/222906952-6b290238-2ca7-4bae-afda-cc06d13f5824.png)
+<br />
+### Rise Time
+Rise time is defined as the time taken for the output signal from 10% of final value to 90% of the final value.The difference between these time interval yields the rise  time (**trise**).<br />
+![image](https://user-images.githubusercontent.com/67727794/222907650-6e0c49ea-a06a-4ede-a62c-c2bb95820d5d.png)
+![image](https://user-images.githubusercontent.com/67727794/222907521-6abf32d8-4688-4da2-94fe-dfe95b452dde.png)
+<br />
+That was bit of theory to get started with our analysis.I always want a crisp theoritical understanding anf then move into the simulation.The Below figure shows the simulation out for the rise time and fall time.

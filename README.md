@@ -33,18 +33,26 @@ Now lets analyise the output signal.Closely observe the propagation delay in the
 ![CMOS inverter-2](./images/theoimages/th1.png)<br>
 ### Fall-Time
 Fall time is defined as the time taken for the output signal from 90% of final value to 10% of the final value.The difference between these time interval yields the fall time (**tfall**).<br />
-![image](https://user-images.githubusercontent.com/67727794/222906879-193febbf-f2c5-4681-9b7f-4a5838ab063c.png)
-![image](https://user-images.githubusercontent.com/67727794/222906952-6b290238-2ca7-4bae-afda-cc06d13f5824.png)
+![CMOS inverter-2](./images/theoimages/fall1.png)<br>
+![CMOS inverter-2](./images/theoimages/fall2.png)<br>
 <br />
 ### Rise Time
 Rise time is defined as the time taken for the output signal from 10% of final value to 90% of the final value.The difference between these time interval yields the rise  time (**trise**).<br />
-![image](https://user-images.githubusercontent.com/67727794/222907650-6e0c49ea-a06a-4ede-a62c-c2bb95820d5d.png)
-![image](https://user-images.githubusercontent.com/67727794/222907521-6abf32d8-4688-4da2-94fe-dfe95b452dde.png)
+![CMOS inverter-2](./images/theoimages/rise1.png)<br>
+![CMOS inverter-2](./images/theoimages/rise2.png)<br>
 <br />
 That was bit of theory to get started with our analysis.I always want a crisp theoritical understanding anf then move into the simulation.The Below figure shows the simulation out for the rise time and fall time.<br />
 **Schematic**<br />
 ![CMOS inverter-2](./images/risefall.png)<br>
 **Output**<br />
 ![CMOS inverter-2](./images/risefallop.png)<br>
-![CMOS inverter-2](./images/risefallop.png)<br>
+![CMOS inverter-2](./images/risefallop1.png)<br>
+***
+## 1.4 Propagation Delay
+![image](https://user-images.githubusercontent.com/67727794/222920034-ee8c51ed-6639-497d-a0d7-2dcb8788be61.png)
+to put it in  simple terms,it measures speed of output reaction to input change.<br />
+**Tp=1/2(Tpr+Tpf)**<br />
+Fall propagation delay, tpf : time for output to fall by 50% reference to input change by 50%<br />
+Rise propagation delay, tpr : time for output to rise by 50% reference to input change by 50%<br />
+
 

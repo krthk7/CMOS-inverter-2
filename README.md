@@ -55,8 +55,9 @@ to put it in  simple terms,it measures speed of output reaction to input change.
 Fall propagation delay, tpf : time for output to fall by 50% reference to input change by 50%<br />
 Rise propagation delay, tpr : time for output to rise by 50% reference to input change by 50%<br />
 **Schematic**<br />
-![CMOS inverter-2](./images/p1.png)<br>
-**Output**<br />
-![CMOS inverter-2](./images/p2.png)<br>
 ![CMOS inverter-2](./images/p3.png)<br>
+**Output**<br />
+![CMOS inverter-2](./images/p1.png)<br>
+![CMOS inverter-2](./images/p2.png)<br>
+***
 

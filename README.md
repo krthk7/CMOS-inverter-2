@@ -49,10 +49,14 @@ That was bit of theory to get started with our analysis.I always want a crisp th
 ![CMOS inverter-2](./images/risefallop1.png)<br>
 ***
 ## 1.4 Propagation Delay
-![image](https://user-images.githubusercontent.com/67727794/222920034-ee8c51ed-6639-497d-a0d7-2dcb8788be61.png)
+![CMOS inverter-2](./images/theoimages/pt1.png)<br>
 to put it in  simple terms,it measures speed of output reaction to input change.<br />
 **Tp=1/2(Tpr+Tpf)**<br />
 Fall propagation delay, tpf : time for output to fall by 50% reference to input change by 50%<br />
 Rise propagation delay, tpr : time for output to rise by 50% reference to input change by 50%<br />
-
+**Schematic**<br />
+![CMOS inverter-2](./images/p1.png)<br>
+**Output**<br />
+![CMOS inverter-2](./images/p2.png)<br>
+![CMOS inverter-2](./images/p3.png)<br>
 

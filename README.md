@@ -41,4 +41,10 @@ Rise time is defined as the time taken for the output signal from 10% of final v
 ![image](https://user-images.githubusercontent.com/67727794/222907650-6e0c49ea-a06a-4ede-a62c-c2bb95820d5d.png)
 ![image](https://user-images.githubusercontent.com/67727794/222907521-6abf32d8-4688-4da2-94fe-dfe95b452dde.png)
 <br />
-That was bit of theory to get started with our analysis.I always want a crisp theoritical understanding anf then move into the simulation.The Below figure shows the simulation out for the rise time and fall time.
+That was bit of theory to get started with our analysis.I always want a crisp theoritical understanding anf then move into the simulation.The Below figure shows the simulation out for the rise time and fall time.<br />
+**Schematic**<br />
+![CMOS inverter-2](./images/risefall.png)<br>
+**Output**<br />
+![CMOS inverter-2](./images/risefallop.png)<br>
+![CMOS inverter-2](./images/risefallop.png)<br>
+

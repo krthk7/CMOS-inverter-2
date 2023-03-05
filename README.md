@@ -9,13 +9,13 @@ In the previous repo CMOS-inverter i had discussed the basic concepts of the inv
       NMOS Width Wn: 400nm**
 ***
 ### Contents
--[1.Transient Analysis](#1-Transient-Analysis)
-  -[1.1 Review](1.1-Review)
-  -[1.2 Variation in load Capacitence (cload).](#1.2-Variation-in-load-Capacitence-(cload).)
-  -[1.3 Rise-Time and Fall-Time](#1.3-Rise-Time-and-Fall-Time)
-  -[1.4 Propagation Delay](#1.4-Propagation-Delay)
-  -[1.5 Propagation Delay due to Variation in Load Capacitence.](#1.5-Propagation-Delay-due-to-Variation-in-Load-Capacitence.)
--[2. Noise Margin](#2.-Noise-Margin)
+- [1.Transient Analysis](#1-Transient-Analysis)
+  - [1.1 Review](#11-Review)
+  - [1.2 Variation in load Capacitence (cload).](#12-Variation-in-load-Capacitence-(cload).)
+  - [1.3 Rise-Time and Fall-Time](#13-Rise-Time-and-Fall-Time)
+  - [1.4 Propagation Delay](#14-Propagation-Delay)
+  - [1.5 Propagation Delay due to Variation in Load Capacitence.](#15-Propagation-Delay-due-to-Variation-in-Load-Capacitence.)
+- [2. Noise Margin](#2-Noise-Margin)
   
 ***
 ***

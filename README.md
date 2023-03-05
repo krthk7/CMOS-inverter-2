@@ -62,8 +62,48 @@ Rise propagation delay, tpr : time for output to rise by 50% reference to input 
 ***
 ## 1.5 Propagation Delay due to Variation in Load Capacitence.
 Lets try and check what happens to the propagation delay when the load capacitence increases.Ive increased the the c value in the form of step paramter.
-Using the .meas command we can determine the various dealay.<br />
+Using the .meas command we can determine the various dealay.I've also included the rise time and fall delay.<br />
 ![CMOS inverter-2](./images/tpc1.png)<br>
 ![CMOS inverter-2](./images/tpc2.png)<br>
+The Output: <br />
+```
+Measurement: tplh
+  step	time2-time1
+     1	2.00835e-010
+     2	8.65443e-010
+     3	1.33927e-009
+Measurement: tphl
+  step	time4-time3
+     1	1.16423e-009
+     2	1.88791e-009
+     3	2.44852e-009
+Measurement: tp
+  step	0.5*(tphl+tplh)
+     1	6.82535e-010
+     2	1.37668e-009
+     3	1.89389e-009
+Measurement: trise
+  step	timed-timec
+     1	1.74414e-009
+     2	2.37433e-009
+     3	2.88539e-009
+Measurement: tfall
+  step	timeb-timea
+     1	1.95033e-009
+     2	3.00505e-009
+     3	4.15412e-009
+```
+***
+## 2. Noise Margin
+![image](https://user-images.githubusercontent.com/67727794/222956843-5334c0e7-a1e0-40be-af91-3c65d9baaea6.png)<br />
+Noise margin is closely related to the DC voltage characteristics. This parameter allows you to determine the allowable noise voltage on the input of a gate so that the output will not be corrupted.<br />
+![image](https://user-images.githubusercontent.com/67727794/222957027-c72d65af-309d-410d-8e40-006c91fa6ad9.png)<br />
+NML is defined as the difference in maximum LOW input voltage recognized by the receiving gate and the maximum LOW output voltage produced by the driving gate.<br />
+![image](https://user-images.githubusercontent.com/67727794/222958051-dcb222f0-4539-442b-a6a8-5b8f7ba7038f.png)<br />
+NMH is the difference between the minimum HIGH output voltage of
+the driving gate and the minimum HIGH input voltage recognized by the receiving gate.<br />
+![image](https://user-images.githubusercontent.com/67727794/222958148-8d0e1a81-bb86-4299-8a68-ef2b8b1ecf44.png)<br />
+
+
 
 

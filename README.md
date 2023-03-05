@@ -16,12 +16,6 @@ In the previous repo CMOS-inverter i had discussed the basic concepts of the inv
   - [1.4 Propagation Delay](#14-Propagation-Delay)
   - [1.5 Propagation Delay due to Variation in Load Capacitence.](#15-Propagation-Delay-due-to-Variation-in-Load-Capacitence.)
 - [2. Noise Margin](#2-Noise-Margin)
-  
-***
-***
-***
-***
-***
 ***
 ## 1.Transient Analysis
 ## 1.1 Review
@@ -101,6 +95,7 @@ Measurement: tfall
      2	3.00505e-009
      3	4.15412e-009
 ```
+As you can see the propagation delay time increases with increase in the load capacitance value.<br />
 ***
 ## 2. Noise Margin
 ![CMOS inverter-2](./images/theoimages/tnm1.png)<br>

@@ -62,8 +62,35 @@ Rise propagation delay, tpr : time for output to rise by 50% reference to input 
 ***
 ## 1.5 Propagation Delay due to Variation in Load Capacitence.
 Lets try and check what happens to the propagation delay when the load capacitence increases.Ive increased the the c value in the form of step paramter.
-Using the .meas command we can determine the various dealay.<br />
+Using the .meas command we can determine the various dealay.I've also included the rise time and fall delay.<br />
 ![CMOS inverter-2](./images/tpc1.png)<br>
 ![CMOS inverter-2](./images/tpc2.png)<br>
-
+The Output: <br />
+```
+Measurement: tplh
+  step	time2-time1
+     1	2.00835e-010
+     2	8.65443e-010
+     3	1.33927e-009
+Measurement: tphl
+  step	time4-time3
+     1	1.16423e-009
+     2	1.88791e-009
+     3	2.44852e-009
+Measurement: tp
+  step	0.5*(tphl+tplh)
+     1	6.82535e-010
+     2	1.37668e-009
+     3	1.89389e-009
+Measurement: trise
+  step	timed-timec
+     1	1.74414e-009
+     2	2.37433e-009
+     3	2.88539e-009
+Measurement: tfall
+  step	timeb-timea
+     1	1.95033e-009
+     2	3.00505e-009
+     3	4.15412e-009
+```
 

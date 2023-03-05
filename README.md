@@ -95,15 +95,18 @@ Measurement: tfall
 ```
 ***
 ## 2. Noise Margin
-![image](https://user-images.githubusercontent.com/67727794/222956843-5334c0e7-a1e0-40be-af91-3c65d9baaea6.png)<br />
+![CMOS inverter-2](./images/theoimages/tnm1.png)<br>
 Noise margin is closely related to the DC voltage characteristics. This parameter allows you to determine the allowable noise voltage on the input of a gate so that the output will not be corrupted.<br />
-![image](https://user-images.githubusercontent.com/67727794/222957027-c72d65af-309d-410d-8e40-006c91fa6ad9.png)<br />
+![CMOS inverter-2](./images/theoimages/tnm2.png)<br>
 NML is defined as the difference in maximum LOW input voltage recognized by the receiving gate and the maximum LOW output voltage produced by the driving gate.<br />
-![image](https://user-images.githubusercontent.com/67727794/222958051-dcb222f0-4539-442b-a6a8-5b8f7ba7038f.png)<br />
+![CMOS inverter-2](./images/theoimages/tnm3.png)<br>
 NMH is the difference between the minimum HIGH output voltage of
 the driving gate and the minimum HIGH input voltage recognized by the receiving gate.<br />
-![image](https://user-images.githubusercontent.com/67727794/222958148-8d0e1a81-bb86-4299-8a68-ef2b8b1ecf44.png)<br />
-
+![CMOS inverter-2](./images/theoimages/tbnm4.png)<br>
+**Schematic**<br />
+![CMOS inverter-2](./images/nm1.png)<br>
+**Output**<br />
+![CMOS inverter-2](./images/nm2.png)<br>
 
 
 
